@@ -101,7 +101,7 @@ loss = dict(                                # Loss function:
 # Section 6.3: "High-resolution image generation using CelebA-HQ dataset"
 if 1:
     run_desc = 'celeb-hq-1024x1024'
-    dataset = dict(h5_path='celeba-hq-1024x1024.h5', resolution=1024, max_labels=0, mirror_augment=True, max_images=30000)
+    dataset = dict(h5_path='erby.h5', resolution=128, max_labels=0, mirror_augment=True, max_images=10000)
 
 # Section 6.4: "LSUN results"
 if 0:
