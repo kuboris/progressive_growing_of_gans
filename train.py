@@ -107,7 +107,7 @@ def train_gan(
     image_snapshot_ticks    = 4,
     network_snapshot_ticks  = 40,
     image_grid_type         = 'default',
-    resume_network_pkl      = None,
+    resume_network_pkl      = 'network-snapshot-005100.pkl',
     resume_kimg             = 0.0,
     resume_time             = 0.0):
 
